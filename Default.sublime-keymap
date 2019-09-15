@@ -2,7 +2,7 @@
 	// insert "
 	{ "keys": ["\""], "command": "insert_quotes",
 		"context":  [
-			// { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+			{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
 			{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
 		],
 	},
@@ -44,7 +44,7 @@
 	// insert '
 	{ "keys": ["'"], "command": "insert_quotes", "args": { "quote_type": "single" },
 		"context":  [
-			// { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+			{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
 			{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" }
 		],
 	},
